@@ -1,0 +1,273 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 100px;
+    background-color: black;
+    border: aquamarine 3px solid;
+
+}
+
+.container{
+   width: 88%;
+    height: 100%;
+    margin: auto;
+  
+    
+}
+
+
+.header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+
+}
+
+.navbar{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.header h1 {
+    color: aquamarine;
+}
+
+.navbar li {
+    font-weight: lighter;
+    color: aquamarine;
+
+}
+
+.navbar .active{
+    font-weight: bolder;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.banner{
+    height: 600px;
+    background-image:url("https://ae01.alicdn.com/kf/HTB1blTpRVXXXXc8XVXXq6xXFXXXV/7x5ft-sob-mar-aqu-rio-rochas-rebanho-de-peixes-luz-solar-personalizado-fotografia-est-dio-fundo.jpg_Q90.jpg_.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.message{
+    margin-right: 250px;
+    width: 10%;
+    color: white;
+    font-size: 40px;
+}
+
+
+.massage span {
+     font-weight: bolder;
+
+}
+
+.proposito {
+    height: 450px;
+    background-color:white;
+}
+
+.proposito .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.proposito .container h2 {
+    color: aquamarine;
+    padding: 25px;
+    border-radius: 25px;
+    background-color:rgb(7, 2, 2);
+}
+
+
+.proposito .container .mvv div img{
+    height: 100px;
+    width: 100px;
+}
+
+.proposito .container .mvv{
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     width: 100%;
+    
+}
+
+.proposito .container .mvv div{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.proposito .container .mvv div h3{
+    color: aquamarine;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.fonder{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.fonder p{
+    color:aquamarine;
+    
+
+
+}
+
+
+.banner2 .fonlogin2{
+    background-color: white;
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.banner2{
+    height: 699px;
+    background-image:url("https://ae01.alicdn.com/kf/HTB1blnzXjb.heNjSZFAq6AhKXXa3/gua-azul-sob-o-se-cair-Luz-parede-de-Vinil-pano-de-fundo-pano-de.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.banner2 .fonlogin2 h2{
+    color: aquamarine;
+}
+
+.banner2 .fonlogin2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner2 .fonlogin2 div span {
+    color: aquamarine;
+
+}
+
+.banner2 .fonlogin2 div input{
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.banner2 .fonlogin2 button{
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+
+
+.banner1{
+    height: 699px;
+    background-image:url("https://ae01.alicdn.com/kf/HTB1blnzXjb.heNjSZFAq6AhKXXa3/gua-azul-sob-o-se-cair-Luz-parede-de-Vinil-pano-de-fundo-pano-de.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner1 .fonlogin1{
+    background-color: white;
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.banner1 .fonlogin1 h2{
+    color: aquamarine;
+}
+
+.banner1 .fonlogin1 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner1 .fonlogin1 div span {
+    color: aquamarine;
+
+}
+
+.banner1 .fonlogin1 div input{
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.banner1 .fonlogin1 button{
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+
+.banner3{
+    height: 600px;
+    background-image:url("https://c.tenor.com/ARq0xt6ZgkAAAAAd/aquario-aquarium.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
